@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#147d4b">
+  <meta name="description" content="EcoScrap connects e-waste owners with responsible recycling services.">
+  <title>EcoScrap | Responsible E-Waste Recycling</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home"><span>♻</span> EcoScrap</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#categories">E-Waste Categories</a>
+      <a href="#process">How It Works</a>
+      <a href="#about">About Us</a>
+      <a href="#contact" class="nav-cta">Schedule Pickup</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">A GREENER DIGITAL FUTURE</span>
+        <h1>Don't dump it.<br><span>Recycle it right.</span></h1>
+        <p>Give your old electronics a responsible second life. Connect with authorized e-waste recyclers and make every device count.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#contact">Schedule a Pickup ↗</a>
+          <a class="button secondary" href="#process">Learn how it works</a>
+        </div>
+        <div class="hero-note">
+          <span class="check">✓</span>
+          <span>Responsible collection · Safer recycling · Cleaner communities</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Illustration of electronic waste for recycling">
+        <div class="visual-circle"></div>
+        <div class="device laptop"><span>▰</span><small>OLD LAPTOP</small></div>
+        <div class="device phone"><span>▯</span><small>SMARTPHONE</small></div>
+        <div class="device battery"><span>▰</span><small>BATTERIES</small></div>
+        <div class="recycle-symbol">♻</div>
+        <div class="floating-label">Give e-waste a new life <span>✓</span></div>
+      </div>
+    </section>
+
+    <section class="benefits" id="about">
+      <article><span class="benefit-icon">♻</span><div><h3>Recycle responsibly</h3><p>Help keep electronic waste out of landfills.</p></div></article>
+      <article><span class="benefit-icon">🤝</span><div><h3>Connect locally</h3><p>Bring waste owners and recycling services together.</p></div></article>
+      <article><span class="benefit-icon">🌱</span><div><h3>Protect our future</h3><p>Support a more circular and sustainable economy.</p></div></article>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="section-heading">
+        <span class="eyebrow">WHAT CAN YOU RECYCLE?</span>
+        <h2>Give old electronics <span>new purpose.</span></h2>
+        <p>Explore common e-waste items that may be eligible for collection. Acceptance depends on recycler capabilities and local rules.</p>
+      </div>
+      <div class="category-grid">
+        <article class="category-card"><div class="category-icon">📱</div><h3>Mobile Phones</h3><p>Old phones, tablets and accessories.</p></article>
+        <article class="category-card"><div class="category-icon">💻</div><h3>Computers</h3><p>Laptops, desktops and peripherals.</p></article>
+        <article class="category-card"><div class="category-icon">🔌</div><h3>Cables & Chargers</h3><p>Eligible cables, adapters and wires.</p></article>
+        <article class="category-card"><div class="category-icon">🔋</div><h3>Batteries</h3><p>Accepted batteries handled safely.</p></article>
+      </div>
+    </section>
+
+    <section class="process-section" id="process">
+      <div class="section-heading centered">
+        <span class="eyebrow">SIMPLE AND RESPONSIBLE</span>
+        <h2>Three steps toward <span>better recycling.</span></h2>
+        <p>A straightforward journey from unwanted electronics to responsible processing.</p>
+      </div>
+      <div class="process-grid">
+        <article><span class="number">01</span><div class="process-icon">📋</div><h3>List your e-waste</h3><p>Identify the items you want to hand over for recycling.</p></article>
+        <article><span class="number">02</span><div class="process-icon">📍</div><h3>Arrange collection</h3><p>Share your location and coordinate with an available collection service.</p></article>
+        <article><span class="number">03</span><div class="process-icon">🌍</div><h3>Recycle responsibly</h3><p>Ensure accepted items reach an appropriate recycling channel.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-banner" id="contact">
+      <div>
+        <span class="eyebrow light">TAKE THE FIRST STEP</span>
+        <h2>Make your next device<br>part of a better future.</h2>
+        <p>Pickup scheduling will be connected to the project backend in a later step.</p>
+      </div>
+      <a class="button white-button" href="mailto:contact@ecoscrap.example?subject=E-waste%20collection%20enquiry">Contact Us ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home"><span>♻</span> EcoScrap</a>
+    <p>Building a cleaner future through responsible e-waste recycling.</p>
+    <span>© <span id="year"></span> EcoScrap · Project prototype</span>
+  </footer>
+</body>
+</html>
